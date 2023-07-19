@@ -1,0 +1,37 @@
+{
+  "name": "project_scrum",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/css-bundle": "^1.18.1",
+    "@remix-run/node": "^1.18.1",
+    "@remix-run/react": "^1.18.1",
+    "@remix-run/serve": "^1.18.1",
+    "arkyn_components": "^0.0.24",
+    "arkyn_remix": "^0.0.55",
+    "isbot": "^3.6.12",
+    "lucide-react": "^0.258.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.18.1",
+    "@remix-run/eslint-config": "^1.18.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vanilla-extract/css": "^1.12.0",
+    "@vanilla-extract/recipes": "^0.4.0",
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

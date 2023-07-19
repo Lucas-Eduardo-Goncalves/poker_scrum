@@ -1,0 +1,1 @@
+export { generateURL } from "./generateURL";
